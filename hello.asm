@@ -57,25 +57,7 @@ _start:
 
 	message:
 		db 0x0A
-		db 'Hello from Docker.', 0x0A
-		db 'This message shows that your installation appears to be working correctly.', 0x0A
-		db 0x0A
-		db 'To generate this message, Docker took the following steps:', 0x0A
-		db ' 1. The Docker client contacted the Docker daemon.', 0x0A
-		db ' 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.', 0x0A
-		db ' 3. The Docker daemon created a new container from that image which runs the', 0x0A
-		db '    executable that produces the output you are currently reading.', 0x0A
-		db ' 4. The Docker daemon streamed that output to the Docker client, which sent it', 0x0A
-		db '    to your terminal.', 0x0A
-		db 0x0A
-		db 'To try something more ambitious, you can run an Ubuntu container with:', 0x0A
-		db ' $ docker run -it ubuntu bash', 0x0A
-		db 0x0A
-		db 'Share images, automate workflows, and more with a free Docker Hub account:', 0x0A
-		db ' http://hub.docker.com', 0x0A
-		db 0x0A
-		db 'For more examples and ideas, visit:', 0x0A
-		db ' http://docs.docker.com/userguide/', 0x0A
+		db 'Hello Epitech Nice et Docker Meetup :)', 0x0A
 		db 0x0A
 	length: equ	$-message            ; message length calculation
 
