@@ -1,3 +1,3 @@
-FROM scratch
+FROM vide
 COPY hello /
 CMD ["/hello"]
